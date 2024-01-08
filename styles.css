@@ -217,7 +217,7 @@ span{
 
     .notification-container{
         position: relative;
-        left: 20%;
+        left: 15%;
         bottom: -20%; 
         z-index: 1;
         background-color: transparent;
