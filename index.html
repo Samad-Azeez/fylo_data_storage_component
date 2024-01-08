@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+</head>
+<body>
+  <div class="wrapper">
+
+    <!-- The left content -->
+    <div class="left-content">
+      <img class="logo" src="./images/logo.svg" alt="fylo icon">
+
+      <!-- Icons -->
+      <div class="icon-container">
+        <div class="icon"><img src="./images/icon-document.svg" alt="icon-document"></div>
+        <div class="icon"><img src="./images/icon-folder.svg" alt="icon-folder"></div>
+        <div class="icon"><img src="./images/icon-upload.svg" alt="icon-upload"></div>
+      </div>
+    </div>
+
+    <!-- The right content -->
+    <div class="right-content">
+      <p>You've used <span>815 GB</span> 0f your storage</p>
+
+      <!-- Storage tracker -->
+      <div class="storage-tracker">
+        <!-- progress bar -->
+        <div class="progress-bar">
+          <div class="progress-circle"></div>
+        </div>
+      </div>
+
+      <!-- storage indicator -->
+      <div class="storage">
+        <p><span>0GB</span></p>
+        <p><span>1000GB</span></p>
+      </div>
+
+      <!-- notification -->
+      <div class="notification-container">
+        <div class="notification">
+          <p class="amount">185</p>
+          <p>GB LEFT</p>
+        </div>
+        <div class="notification-tail"></div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="desktop-background">
+    <img src="./images/bg-desktop.png" alt="desktop-background">
+  </div>
+</body>
+</html>
